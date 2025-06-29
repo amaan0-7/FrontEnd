@@ -1,0 +1,21 @@
+Transitions are used to control an element when it is transforming from one state to another state
+It contains
+    Transition property
+    Transition Duration
+    Transition Timing Function
+    Transition Delay
+
+Transition property : It contains property names that need to have transition.'all' covers all properties
+Transition Duration : It defines the time the transition takes(in seconds or milliseconds)
+Transition Timing Function : It defines how the transition should go.There are different functions,the popular ones are:
+    linear -- maintains constant growth
+    ease -- maintains explosive growth
+    ease-in -- starts slowly and gains speed
+    ease-out -- starts fastly and becomes slow
+    ease-in-out -- starts slowly and becomes fastly and becomes slow
+
+Animations : Animations are used to show the transition of element between multiple states
+They need keyframes to defines its each frame. Animations properties are
+    Animation name
+    Animation Duration
+    Animation Timing Function

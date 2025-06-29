@@ -1,0 +1,14 @@
+Position : position is used to keep the item/element at different places on screen. We can adjust the position using properties like top,left,bottom,right.
+There are 5 different positions in CSS. They are
+    1.static
+    2.absolute
+    3.relative
+    4.fixed
+    5.sticky
+
+1.static : it is the default position of any element. It will not have any impact of top,left,right and bottom
+2.relative : relative always moves the element based on its current position and top,left,bottom,right values. It is always bound to its parent element.
+3.absolute : absolute always moves the element based on screen. It's values are based on screen
+The difference between relative and absolute is top : 0px will not make any impact to relative since it doesnt move 0px from top of its current position. But absolute will make element go to the top 0 of top of screen
+4.fixed : absolute can move element anywhere but it will scroll with the page. Fixed will make element move like absolute but scrolling will not have any impact on it
+5.sticky : sticky is like relative but it will become fixed once the criteria matched and it will stay until the parent ends

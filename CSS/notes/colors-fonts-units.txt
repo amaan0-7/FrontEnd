@@ -1,0 +1,9 @@
+units : There are different units to measure properties in CSS. They are :
+    px(pixels) -- pixel is the smallest unit of screen. Entire screen divided as pixels. Preferred to use small quantities
+    %(percentages) -- % is the unit of share of parent's properties
+    vh/vw -- stands for view-port height or view-port width. It represents percentage of screen size
+    em -- enumerated value -- percentage of parents font size
+        1em --> 1*parents font size
+    rem -- root enumerated value -- percentage of body's font size 
+        1rem --> 1*body font size(deafult 16x)
+    

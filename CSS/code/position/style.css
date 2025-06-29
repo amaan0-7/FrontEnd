@@ -1,0 +1,26 @@
+#myEle{
+    height: 50vh;
+    width: 50vw;
+    /* background-color: red; */
+    border: 2px solid red;
+}
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: #ff0000;
+    position: relative;
+    left: 100px;
+    top: 200px;
+    bottom: 0px;
+}
+#boxAbs{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    /* top: 0px;
+    left: 0px; */
+    right: 0px;
+    bottom: 0px;
+    border-radius: 50%;
+}

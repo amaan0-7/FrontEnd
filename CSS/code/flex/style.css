@@ -1,0 +1,26 @@
+.parent{
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    justify-content: center;
+    align-items: start;
+    /* gap: 10px;
+    flex-wrap: wrap;
+    align-content: center; */
+}
+.child{
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+    background-color: green;
+    color: aliceblue;
+    margin: 2px;
+}
+.child1{
+    /* align-self: end; */
+}
+.child2{
+    flex-shrink: 5;
+}

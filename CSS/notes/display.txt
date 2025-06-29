@@ -1,0 +1,22 @@
+Display :  display property is used to show the elements in specific layout.
+block -- displays elements as block elements i.e., always in new line
+inline -- displays elements as inline elements i.e., continue in same line but height or width won't be considered
+inline-block -- displays elements as inline block elements i.e., continue in same line but heght and width also considered
+none -- it removes the element from actual flow of document
+(visibility;hidden -- it only hides the element)
+
+Flexbox : Flexbox is used to arrange the elements in single direction either row or column
+    display:flex -- it arranges all child items in a row
+    flex-direction:row -- it arranges all child items in a specific direction i.e., row or colomn or row-rev or col-rev
+    justify-content -- used to move in the main axis (flex-direction) -- start/left/right/end/center/space-between/space-around/space-evenly
+    align-items -- used to move items in cross axis -- start/left/right/center/end
+    flex-wrap -- used t -- nowrap/wrap/wrap-reverse
+    align-content -- used to move the wrapped lines -- start/left/right/end/center/space-between,space-around,space-evenly
+    gap -- used for gap between the items
+
+Child properties :
+    order --  defines the order of arrangement of each item. Default order is Zero
+    align-self -- moves the element along the cross-axis
+    flex-grow -- makes the element grow when space is available
+    flex-shrink -- makes the element shrink when space is not available
+    flex-basis -- width of element to be fixed irrespective of other elements width

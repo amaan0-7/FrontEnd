@@ -1,0 +1,9 @@
+JavaScript :
+    JS is a versatile dynamic programming language used in both client and server-side applications for functionality or behaviour of web-pages
+    JS is synchronous and single-threaded language
+    It was created by Brenden Eich in 1995, employee of netscape communicators. Initially it was used only in Netscape browser but later changed and standardised in 1997 as ECMASCRIPT
+
+    How to use JS in HTML?
+    There are 2 ways JS can be used in HTML:
+        1. internal JS : we can include JS code into HTML between 'script' as an element
+        2. external JS : we can include JS as seperate file and link to HTML using script tag with 'src'
